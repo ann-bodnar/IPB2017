@@ -1,0 +1,25 @@
+
+Home work 15/03
+
+
+print ("Insert your card")
+number = input("What is your card number")
+password = input("What is your password?")
+if (number == "123456") or (password == "1111"):
+  print ("Your password and your card number are verified")
+else:
+  print ("invalid password or card number")
+money = input("How much money do you want to whitedrown")
+deposit = 200
+
+if (int(money) <= deposit):
+  print("Please take your card")
+  print("Print recipe")
+  recipe = input("Do you want recipe?")
+  if (recipe == "Y"):
+    print ("Wait for your recipe")
+  else:
+    print ("Good bye")
+else:
+    print ("not enough money on account")
+
